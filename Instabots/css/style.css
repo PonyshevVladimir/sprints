@@ -1,0 +1,477 @@
+
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+@font-face {
+    font-family: 'Visuelt Pro';
+    src: local('Visuelt Pro  Regular'), local('Visuelt-Pro--Regular'),
+        url('/fonts/VisueltPro-Regular.woff2') format('woff2'),
+        url('/fonts/VisueltPro-Regular.woff') format('woff'),
+        url('/fonts/VisueltPro-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'Visuelt Pro ';
+    src: local('Visuelt Pro  Medium'), local('Visuelt-Pro--Medium'),
+        url('/fonts/VisueltPro-Medium.woff2') format('woff2'),
+        url('/fonts/VisueltPro-Medium.woff') format('woff'),
+        url('/fonts/VisueltPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  body{
+    font-family: 'Visuelt Pro';
+    font-weight: 400;
+    color: #1a1a1a;
+  }
+
+.wrapper{
+    max-width: 1400px;
+    margin: 0 auto;
+    background: #f2f2f2;
+    padding: 24px;
+    border-radius: 20px;
+    box-sizing: content-box;
+  }
+/* general */
+
+.heading-1{
+    font-family: 'Visuelt Pro';
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 125%;
+}
+
+.heading-2{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 112%;
+    /* марджин прописан т.к. он есть во 
+    всех вторых заголовках, хоть и 
+    считается что бэму нельзя 
+    свойства позиционирования блоков*/
+    margin-bottom: 40px;
+}
+
+.heading-3{
+    font-family: 'Visuelt Pro';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.text-main{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #808080;
+}
+
+.text-small{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 135%;
+    color: #595959;
+}
+
+.text-blue{
+    color: #505dec;
+}
+.text-white{
+    color: #fff;
+}
+    
+.button{
+    border-radius: 16px;
+    border: none;
+    padding: 12px 24px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 135%;
+}
+
+.button-blue{
+    background: #4754eb;
+    color: #fff;
+}
+
+
+.button-white{
+    background: #fff;
+    color:  #4754eb;
+}
+
+
+section{
+    padding: 80px 50px;
+    background-color: #fff;
+}
+
+input{
+    width: 465px;
+    height: 20px;
+    padding: 20px 20px 20px 16px;
+    background: #f2f2f2;
+    border-radius: 16px;
+    border: none;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #1a1a1a;
+}
+
+input::placeholder{
+    padding: 16px 16px 16px 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #808080;
+}
+/* header-top */
+
+.header-top{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.header-top ul{
+    justify-self: center;
+    display: flex;
+    gap: 24px;
+}
+
+.header-top ul + div a{
+    margin-right: 16px;
+}
+
+/* header */
+
+.header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+}
+.header > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.header h1{
+    margin-bottom: 40px;
+}
+.header form{
+    background: rgba(255, 255, 255, 0.5);
+    margin-bottom: 16px;
+}
+
+/* advantages */
+
+.advantages{
+    padding: 80px 25px
+}
+.advantages ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap
+}
+.advantages li{
+    width: 435px
+}
+.advantages div{
+    display: flex;
+    flex-direction: row; 
+    justify-content: start;
+    align-items: center
+}
+.advantages img{
+    width: 56px;
+    margin: 12px
+}
+.advantages p{
+    padding: 16px 24px 24px
+}
+
+/* schedule */
+
+.schedule{
+    display: flex
+}
+.schedule div + div{
+    width: 460px;
+    margin: 24px;
+    margin: auto 0
+}
+.schedule h2{
+    margin-bottom: 16px
+}
+.schedule p{
+    margin-bottom: 24px
+}
+.schedule p + p{
+    margin-bottom: 70px
+}
+
+@media (max-width: 1200px){
+    .schedule{
+        flex-direction: column
+    }
+}
+@media (max-width: 750px){
+    .schedule img{
+        width: 340px;
+    }
+}
+
+/* tariffs */
+
+.tariffs{
+    padding: 80px 24px
+}
+.tariffs > h2{
+    margin-left: 32px
+}
+.tariffs ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 24px
+}
+.tariffs h2 + ul > li{
+    padding: 20px;
+    border-radius: 24px;
+    backdrop-filter: blur(24px);
+    box-shadow: 0 4px 20px 0 rgba(25, 25, 25, 0.05);
+    background: rgba(255, 255, 255, 0.5);
+    width: 280px
+}
+.tariffs div{
+   margin: 20px 0
+}
+.tariffs div h2{
+    margin-bottom: 8px
+}
+.tariffs div p{
+    color: #808080;
+}
+.tariffs div + ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px
+}
+.tariffs div + ul li{
+    width: 270px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 16px
+}
+.tariffs img{
+    padding: 6px
+}
+.tariffs button{
+    margin: auto 35px
+}
+
+/* sale */
+
+.sale{
+    display: flex;
+    justify-content: center
+}
+.sale img{
+    width: 640px;
+    margin: auto 0;
+    margin-right: 100px
+}
+.sale div{
+    margin: auto 0;
+    width: 465px
+}
+.sale h1{
+    margin-bottom: 40px
+}
+.sale form{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: #f2f2f2
+}
+.sale form button{
+    margin: 8px
+}
+.sale p{
+    margin-top: 16px;
+    margin-left: 8px
+}
+
+@media (max-width: 1400px){
+    .sale{
+        flex-direction: column;
+    }
+    .sale__img{
+        margin: auto auto;
+    }
+    .sale__box{
+        margin: auto auto;
+    }
+}
+
+@media (max-width: 600px){
+    .sale{
+        padding: 40px 20px;
+    }
+    .sale img{
+        width: 360px;
+    }
+    .sale form{
+        width: 320px;
+    }
+    .sale input:-moz-placeholder{
+    font-size: 14px;
+    }
+    .sale input{
+        width: 130px;
+    }
+}
+
+/* feedback */
+
+.feedback{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: content-box
+}
+.feedback > div{
+    max-width: 465px;
+    margin: auto auto
+}
+.feedback h2{
+    margin-bottom: 16px
+}
+.feedback h2 + p{
+    margin-bottom: 24px
+}
+.feedback input{
+    margin-bottom: 16px
+}
+textarea{
+    font-family: 'Visuelt Pro';
+    height: 70px;
+    width: 465px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 16px;
+    width: 465px;
+    padding: 16px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 135%;
+    color: #808080
+}
+textarea::placeholder{
+    font-family: 'Visuelt Pro';
+    padding-top: 0
+}
+.feedback div div{
+    margin-top: 24px;
+    display: flex
+}
+.feedback button{
+    margin-right: 24px;
+    width: 260px
+}
+.feedback_ button + p{
+    width: 240px
+}
+.feedback img{
+    width: 489px;
+    margin: auto auto
+}
+
+@media (max-width: 1200px){
+    .feedback img{
+    display: none
+    }
+}
+@media (max-width: 650px){
+    .feedback{
+        padding: 40px 20px;
+    }
+    .feedback div{
+    max-width: 270px;
+    margin: auto auto;
+    }
+    .feedback__input{
+    max-width: 270px;
+    }
+    .feedback div div{
+        flex-direction: column;
+    }
+    .feedback button{
+        width: 170px;
+        margin-bottom: 16px;
+    }
+}
+
+/* footer */
+
+.footer{
+    max-width: 1400px;
+    background: #4754eb;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.footer h2{
+    margin-bottom: 5px
+}
+.footer h2 + p{
+    color: #d9d9d9
+}
+.footer div + div{
+    margin: auto 0;
+}
+.footer__button-big{
+    display: inline-block;
+    font-size: 18px
+}
+.footer__button-small{
+    display: none;
+    font-size: 14px
+}
+
+@media (max-width: 550px){
+    .footer{
+        padding: 15px 20px 20px;
+    }
+    .footer h2{
+        font-size: 14px
+    }
+    .footer h2 + div{
+    font-size: 14px
+    }
+    .footer__button-small{
+    display: inline-block
+    }
+    .footer__button-big{
+    display: none
+    }
+}
