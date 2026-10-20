@@ -58,8 +58,9 @@ ul, ol {
 }
 
 .container {
-  margin: 30px auto;
-  max-width: 1300px;
+  padding: 30px 10px;
+  margin: 0 auto;
+  max-width: 1320px;
 }
 
 .header {
@@ -109,7 +110,7 @@ ul, ol {
   align-items: center;
   gap: 8px;
   padding: 0 8px 0 20px;
-  margin: 0 auto;
+  margin: 0 auto 1000px auto;
   max-width: 350px;
   height: 52px;
   border: 1px solid rgba(255, 255, 255, 0.6);
@@ -139,6 +140,57 @@ ul, ol {
 .hero__searach-img {
   width: 18px;
   height: 18px;
+}
+
+.advantages {
+  padding: 130px 0;
+  font-family: "Gilroy", sans-serif;
+  color: #1E1E1E;
+}
+.advantages .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.advantages__title {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.advantages-card {
+  font-family: "Gilroy", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.advantages-card__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.advantages-card__description {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 285px;
+  line-height: 1.85;
+  opacity: 80%;
+  margin-bottom: 25px;
+}
+.advantages-card__box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 13px;
+}
+.advantages-card__link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #E58411;
+}
+.advantages-card__arrow {
+  width: 48px;
+  height: 24px;
 }
 
 /*# sourceMappingURL=main.css.map */
