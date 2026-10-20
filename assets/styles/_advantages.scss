@@ -43,22 +43,20 @@
     margin-bottom: 25px;
   }
 
-  &__box{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 13px;
-  }
-
   &__link{
     font-size: 14px;
     font-weight: 500;
     color: variables.$color-text-muted;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
   }
 
   &__arrow{
     width: 48px;
     height: 24px;
+    padding-top: 4px;
   }
 
 }
