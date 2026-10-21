@@ -1,0 +1,62 @@
+@use './variables';
+@use './fonts';
+
+.advantages{
+  padding: 130px 0;
+  font-family: 'Gilroy', sans-serif;
+  color: variables.$color-text-main;
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__title{
+    font-size: 42px;
+    font-weight: 700;
+  }
+}
+
+.advantages-card{
+  font-family: 'Gilroy', sans-serif;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &__title{
+    font-size: 24px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+  }
+
+  &__description{
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 285px;
+    line-height: 1.85;
+    opacity: 80%;
+
+    margin-bottom: 25px;
+  }
+
+  &__link{
+    font-size: 14px;
+    font-weight: 500;
+    color: variables.$color-text-muted;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 13px;
+  }
+
+  &__arrow{
+    width: 48px;
+    height: 24px;
+    padding-top: 4px;
+  }
+
+}

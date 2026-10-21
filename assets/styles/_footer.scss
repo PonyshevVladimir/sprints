@@ -1,0 +1,98 @@
+@use './variables';
+@use './fonts';
+
+.footer{
+  background-color: variables.$color-bg-page;
+  font-family: 'Gilroy', sans-serif;
+  color: variables.$color-text-main;
+
+  .container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 120px;
+  }
+
+  &__main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+  }
+
+  &__info{
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__logo{
+    font-size: 28px;
+    font-weight: 700;
+
+    margin-bottom: 30px;
+  }
+
+  &__description{
+    font-size: 15px;
+    font-weight: 400;
+    max-width: 293px;
+    line-height: 1.6;
+    opacity: 80%;
+  }
+
+
+  &__nav-column{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  &__nav-title{
+    color: variables.$color-text-muted;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: -0.23px;
+  }
+
+  &__nav-link{
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 160%;
+  }
+
+  &__social{
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: 5px;
+  }
+
+  &__nav-img{
+    margin: 0 auto;
+
+    width: auto;
+    height: 20px;
+    object-fit: contain;
+
+  }
+
+  &__legal{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.2px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__legal-links{
+    line-height: 160%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+  }
+}
