@@ -1,0 +1,74 @@
+{
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Bang Upin",
+      "job": "Pedagang Asongan",
+      "text": "Terimakasih banyak, kini ruanganku menjadi lebih mewah dan terlihat mahal",
+      "stars": "4",
+      "avatar":"assets/images/BangUpin-avatar.png",
+      "bg-image": "assets/images/BangUpin-bg.jpg"
+    },
+
+    {
+      "id": "2",
+      "name": "Ibuk Sukijan",
+      "job": "Ibu Rumah Tangga",
+      "text": "Makasih Panto, aku sekarang berasa tinggal di apartment karena barang- barang yang terlihat mewah",
+      "stars": "5",
+      "avatar":"assets/images/IbukSukijan-avatar.png",
+      "bg-image": "assets/images/IbukSukijan.jpg"
+    },
+
+    {
+      "id": "3",
+      "name": "Mpok Ina",
+      "job": "Karyawan Swasta",
+      "text": "Sangat terjangkau untuk kantong saya yang tidak terlalu banyak",
+      "stars": "2",
+      "avatar":"assets/images/MpokIna-avatar.png",
+      "bg-image": "assets/images/MpokIna-bg.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Jane Cooper",
+      "job": "Interior Designer",
+      "text": "The aesthetic value of these furniture pieces is unmatched. They completely transformed our open-space studio apartment into a cozy, premium living area.",
+      "stars": "5",
+      "avatar": "assets/images/BangUpin-avatar.png",
+      "bg-image": "assets/images/BangUpin-bg.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Robert Fox",
+      "job": "Architecture Lead",
+      "text": "Finding a workspace setup that balances comfort and professional look is hard. These chairs offer incredible ergonomic support for long working hours.",
+      "stars": "3",
+      "avatar": "assets/images/BangUpin-avatar.png",
+      "bg-image": "assets/images/BangUpin-bg.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Leslie Alexander",
+      "job": "Product Manager",
+      "text": "Exceptional build quality and smooth delivery process. The textures of the fabrics feel premium, and the design perfectly matches modern minimalist styles.",
+      "stars": "5",
+      "avatar": "assets/images/BangUpin-avatar.png",
+      "bg-image": "assets/images/BangUpin-bg.jpg"
+    }
+  ],
+
+
+  "products": [
+    {
+      "id": "1",
+      "product-type": "Chair",
+      "name": "Sakarias Armchair",
+      "stars": "4",
+      "currency": "$",
+      "price": "392",
+      "image": ""
+    }
+  ]
+
+}
