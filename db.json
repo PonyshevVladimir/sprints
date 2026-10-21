@@ -62,13 +62,75 @@
   "products": [
     {
       "id": "1",
-      "product-type": "Chair",
+      "type": "Chair",
       "name": "Sakarias Armchair",
-      "stars": "4",
+      "stars": "5",
       "currency": "$",
       "price": "392",
-      "image": ""
+      "image": "assets/images/sakarias-armchair.png"
+    },
+    {
+      "id": "2",
+      "type": "Chair",
+      "name": "Baltsar Chair",
+      "stars": "4",
+      "currency": "$",
+      "price": "299",
+      "image": "assets/images/baltsar-chair.png"
+    },
+    {
+      "id": "3",
+      "type": "Chair",
+      "name": "Anjay Chair",
+      "stars": "3",
+      "currency": "$",
+      "price": "519",
+      "image": "assets/images/anjay chair.png"
+    },
+    {
+      "id": "4",
+      "type": "Chair",
+      "name": "Sakarias Armchair",
+      "stars": "5",
+      "currency": "$",
+      "price": "921",
+      "image": "assets/images/sakarias-armchair.png"
+    },
+    {
+      "id": "5",
+      "type": "Chair",
+      "name": "Sakarias Armchair",
+      "stars": "2",
+      "currency": "$",
+      "price": "476",
+      "image": "assets/images/sakarias-armchair.png"
+    },
+    {
+      "id": "6",
+      "type": "Chair",
+      "name": "Sakarias Armchair",
+      "stars": "5",
+      "currency": "$",
+      "price": "734",
+      "image": "assets/images/sakarias-armchair.png"
+    },
+    {
+      "id": "7",
+      "type": "Chair",
+      "name": "Sakarias Armchair",
+      "stars": "1",
+      "currency": "$",
+      "price": "324",
+      "image": "assets/images/sakarias-armchair.png"
+    },
+    {
+      "id": "8",
+      "type": "Chair",
+      "name": "Sakarias Armchair",
+      "stars": "3",
+      "currency": "$",
+      "price": "777",
+      "image": "assets/images/sakarias-armchair.png"
     }
   ]
-
 }
