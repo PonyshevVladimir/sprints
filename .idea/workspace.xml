@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4db9ea26-616d-4170-b194-19697fb9341f" name="Changes" comment="feat: implement dynamic data fetching and rendering stars for catalog slider">
+      <change beforePath="$PROJECT_DIR$/assets/icons/star.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icons/star.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/scripts/reviews-slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/scripts/reviews-slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/_reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/_reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;PonyshevVladimir&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/PonyshevVladimir/sprints.git&quot;,
+    &quot;accountId&quot;: &quot;ca052cf8-9a68-467e-a62f-12ee7d4c40a3&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3KrP5IgrDWu3qHiDXV0ShipKrkr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "#3 on Rebasing sprint1",
+    "javascript.preferred.runtime.type.id": "node",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Warmarok\WebstormProjects\Panto" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10968.77" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4db9ea26-616d-4170-b194-19697fb9341f" name="Changes" comment="" />
+      <created>1792312528811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792312528811</updated>
+      <workItem from="1792312531112" duration="9526000" />
+      <workItem from="1792333135750" duration="2687000" />
+      <workItem from="1792381520367" duration="5671000" />
+      <workItem from="1792462424508" duration="10405000" />
+      <workItem from="1792501445195" duration="4392000" />
+      <workItem from="1792551886621" duration="41833000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: Linked the Panto project in WebStorm to the sprint1 branch on GitHub.">
+      <option name="closed" value="true" />
+      <created>1792313801082</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1792313801082</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: structure updated&#10;&#10;Directories for fonts, icons, images, and styles have been added and populated with initial content (fonts downloaded, images exported from Figma). SCSS has been integrated, and a `reset.scss` file has been created and populated.">
+      <option name="closed" value="true" />
+      <created>1792319537486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1792319537486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix:.idea removed from Git&#10;&#10;The .idea folder has been removed from Git and added to .gitignore.">
+      <option name="closed" value="true" />
+      <created>1792320150268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1792320150268</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: header and hero section added&#10;&#10;Also:&#10;- fonts have been added&#10;- some variables have been imported from Figma&#10;- `_base.scss` has been created for general styling">
+      <option name="closed" value="true" />
+      <created>1792387861574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1792387861574</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: advantages section added">
+      <option name="closed" value="true" />
+      <created>1792466845484</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1792466845484</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: footer added&#10;&#10;also fixed an issue where the arrow in the advantages section was unclickable">
+      <option name="closed" value="true" />
+      <created>1792472177054</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1792472177054</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: reviews section added">
+      <option name="closed" value="true" />
+      <created>1792568147681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1792568147682</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: catalog section added&#10;&#10;without JS">
+      <option name="closed" value="true" />
+      <created>1792578480706</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1792578480706</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: js for catalog slider">
+      <option name="closed" value="true" />
+      <created>1792580254615</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1792580254615</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: add local json database for reviews slider">
+      <option name="closed" value="true" />
+      <created>1792592826095</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1792592826095</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: implement dynamic data fetching and rendering stars for reviews slider">
+      <option name="closed" value="true" />
+      <created>1792593104070</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1792593104070</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: implement dynamic data fetching and rendering stars for catalog slider">
+      <option name="closed" value="true" />
+      <created>1792595109276</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1792595109276</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ID_WIDTH">
+                <map>
+                  <entry key="Table.Default.Author.ColumnIdWidth" value="98" />
+                  <entry key="Table.Default.Date.ColumnIdWidth" value="79" />
+                  <entry key="Table.GitHub.CommitStatus.ColumnIdWidth" value="79" />
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Linked the Panto project in WebStorm to the sprint1 branch on GitHub." />
+    <MESSAGE value="feat: structure updated&#10;&#10;Directories for fonts, icons, images, and styles have been added and populated with initial content (fonts downloaded, images exported from Figma). SCSS has been integrated, and a `reset.scss` file has been created and populated." />
+    <MESSAGE value="fix:.idea removed from Git&#10;&#10;The .idea folder has been removed from Git and added to .gitignore." />
+    <MESSAGE value="feat: header and hero section added&#10;&#10;Also:&#10;- fonts have been added&#10;- some variables have been imported from Figma&#10;- `_base.scss` has been created for general styling" />
+    <MESSAGE value="feat: advantages section added" />
+    <MESSAGE value="feat: footer added&#10;&#10;also fixed an issue where the arrow in the advantages section was unclickable" />
+    <MESSAGE value="feat: reviews section added" />
+    <MESSAGE value="feat: catalog section added&#10;&#10;without JS" />
+    <MESSAGE value="1." />
+    <MESSAGE value="feat: js for catalog slider" />
+    <MESSAGE value="feat: add local json database for reviews slider" />
+    <MESSAGE value="feat: implement dynamic data fetching and rendering stars for reviews slider" />
+    <MESSAGE value="feat: implement dynamic data fetching and rendering stars for catalog slider" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: implement dynamic data fetching and rendering stars for catalog slider" />
+  </component>
+</project>
