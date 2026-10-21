@@ -2,6 +2,7 @@
 @use './fonts';
 
 .footer{
+  background-color: variables.$color-bg-page;
   font-family: 'Gilroy', sans-serif;
   color: variables.$color-text-main;
 
